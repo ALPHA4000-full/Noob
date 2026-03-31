@@ -59,7 +59,7 @@ def save_settings(s):
 
 def get_cards():
     return load_db().get("payment_cards", {
-        "uzcard": "8600 1666 0393 7029",
+        "uzcard": "8600 0000 0000 0000",
         "humo":   "9860 0000 0000 0000"
     })
 
