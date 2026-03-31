@@ -23,7 +23,7 @@ TEXTS = {
         "main_menu": "🏠 Asosiy menyu",
         "exchange": "💱 Valyuta ayirboshlash",
         "rates": "📊 Kurs",
-        "partners": "👥 Hamënlar",
+        "partners": "👥 Hamyonlar",
         "referral": "👥 Referal",
         "settings": "⚙️ Sozlamalar",
         "callback": "📞 Qayta aloqa",
@@ -39,7 +39,7 @@ TEXTS = {
 
         "exchange_menu": "💱 Valyuta ayirboshlash bo'limi",
         "rates_menu": "📊 Valyuta kurslari",
-        "partners_menu": "👥 Hamënlar bo'limi",
+        "partners_menu": "👥 Hamyonlar bo'limi",
         "referral_menu": "👥 Referal tizimi",
         "callback_menu": "📞 Qayta aloqa - tez orada javob beramiz",
         "transfers_menu": "🔄 Almashuvlar bo'limi",
