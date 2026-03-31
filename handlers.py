@@ -35,7 +35,7 @@ PARTNERS_DELETE_BUTTONS = ["❌ O'chirish", "❌ Удалить"]
 SUPPORT_MENU_TEXTS = [
     "💱 Valyuta ayirboshlash", "💱 Обмен валют",
     "📊 Kurs", "📊 Курс",
-    "👥 Hamënlar", "👥 Партнёры",
+    "👥 Hamyonlar", "👥 Партнёры",
     "👥 Referal", "👥 Реферал",
     "⚙️ Sozlamalar", "⚙️ Настройки",
     "📞 Qayta aloqa", "📞 Обратная связь",
