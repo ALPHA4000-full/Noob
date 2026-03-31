@@ -2,7 +2,7 @@
 CURRENCIES = [
     {"id": "uzcard",      "name": "UZCARD",        "icon": "💎", "type": "card"},
     {"id": "humo",        "name": "HUMO",           "icon": "💎", "type": "card"},
-    {"id": "tron",        "name": "Tron (TRX)",     "icon": "💎", "type": "crypto"},
+    {"id": "tron",        "name": "TRON (TRX)",     "icon": "💎", "type": "crypto"},
     {"id": "bnb",         "name": "BINANCECOIN (BNB)",      "icon": "💎", "type": "crypto"},
     {"id": "solana",      "name": "SOLANA (SOL)",         "icon": "💎", "type": "crypto"},
     {"id": "litecoin",    "name": "LITECOIN (LTC)",       "icon": "💎", "type": "crypto"},
