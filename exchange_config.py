@@ -2,17 +2,12 @@
 CURRENCIES = [
     {"id": "uzcard",      "name": "UZCARD",        "icon": "💎", "type": "card"},
     {"id": "humo",        "name": "HUMO",           "icon": "💎", "type": "card"},
-    {"id": "usdt_trc20",  "name": "USDT (Trc20)",   "icon": "💎", "type": "crypto"},
-    {"id": "usdt_bep20",  "name": "USDT (Bep20)",   "icon": "💎", "type": "crypto"},
-    {"id": "binance_p2p", "name": "Binance P2P",    "icon": "💎", "type": "crypto"},
     {"id": "tron",        "name": "Tron (TRX)",     "icon": "💎", "type": "crypto"},
-    {"id": "sui",         "name": "Sui (SUI)",      "icon": "💎", "type": "crypto"},
-    {"id": "bnb",         "name": "Bnb (BNB)",      "icon": "💎", "type": "crypto"},
-    {"id": "polygon",     "name": "POLYGON",        "icon": "💎", "type": "crypto"},
-    {"id": "solana",      "name": "SOLANA",         "icon": "💎", "type": "crypto"},
-    {"id": "litecoin",    "name": "LITECOIN",       "icon": "💎", "type": "crypto"},
-    {"id": "dogecoin",    "name": "DOGECOIN",       "icon": "💎", "type": "crypto"},
-    {"id": "toncoin",     "name": "TONCOIN",        "icon": "💎", "type": "crypto"},
+    {"id": "bnb",         "name": "BINANCECOIN (BNB)",      "icon": "💎", "type": "crypto"},
+    {"id": "solana",      "name": "SOLANA (SOL)",         "icon": "💎", "type": "crypto"},
+    {"id": "litecoin",    "name": "LITECOIN (LTC)",       "icon": "💎", "type": "crypto"},
+    {"id": "dogecoin",    "name": "DOGECOIN (DOGE)",       "icon": "💎", "type": "crypto"},
+    {"id": "toncoin",     "name": "TONCOIN (TON)",        "icon": "💎", "type": "crypto"},
 ]
 DEFAULT_RATES = {
     "uzcard:usdt_trc20":  {"rate": 0.000075, "min": 100000,  "max": 500000000, "commission": 1.0},
@@ -26,7 +21,7 @@ DEFAULT_RATES = {
 }
 
 PAYMENT_CARDS = {
-    "uzcard": "8600 1666 0393 7029",
+    "uzcard": "8600 0000 0000 0000",
     "humo":   "9860 0000 0000 0000",
 }
 
