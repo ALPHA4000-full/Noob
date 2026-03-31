@@ -41,7 +41,7 @@ def get_rate_info(from_id: str, to_id: str) -> dict | None:
 def get_payment_card(cur_id: str) -> str:
     db = load_db()
     return db.get("payment_cards", {
-        "uzcard": "8600 1666 0393 7029",
+        "uzcard": "8600 0000 0000 0000",
         "humo":   "9860 0000 0000 0000"
     }).get(cur_id, "")
 
@@ -425,7 +425,7 @@ async def ex_receiver_card(message: Message, state: FSMContext):
     await state.update_data(receiver_card=receiver)
 
     text = (
-        f"✅ Hamënlar qabul qilindi.\n\n"
+        f"✅ Hamyonlar qabul qilindi.\n\n"
         f"🔖 Sizning almashuvingiz:\n\n"
         f"🔄: {from_name} ➡️ {to_name}\n"
         f"⬆️ Beriш: {fmt(send_amt)} {from_name}\n"
